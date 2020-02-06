@@ -168,6 +168,35 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  border-bottom: 2px dashed lightgray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav div {
+  width: 800px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div .logo {
+  display: flex;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+  text-decoration: none;
+}
+nav div section {
+  display: flex;
+}
+nav div section a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
