@@ -1,3 +1,12 @@
+.butn {
+  width: 195px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #449797;
+  border: 2px solid #449797;
+  border-radius: 12px;
+  color: seashell;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -208,6 +217,15 @@ nav div section a {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home .welcome {
+  border-bottom: 2px dashed lightgray;
+}
+.home .welcome img {
+  margin-bottom: 15px;
+}
+.home .welcome p {
+  margin-bottom: 15px;
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;
@@ -253,4 +271,35 @@ nav div section a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick button {
+  width: 195px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #449797;
+  border: 2px solid #449797;
+  border-radius: 12px;
+  color: seashell;
+}
+@media (max-width: 500px) {
+  .home {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  .home .content-pick {
+    display: flex;
+    flex-direction: column;
+  }
+  .home .content-pick .destination {
+    width: 90%;
+  }
+  .home .content-pick div {
+    margin: 0% auto;
+    border: 2px solid black;
+  }
+  .home .content-pick div button {
+    margin: 0% auto;
+  }
 }
