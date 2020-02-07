@@ -1,5 +1,17 @@
 .home {
 
+  .welcome {
+
+    img{
+      margin-bottom: 15px;
+    }
+    p{
+      margin-bottom: 15px;
+    }
+    border-bottom: 2px dashed lightgray;
+
+  }
+
   .content-section {
     margin: 30px 0;
     display: flex;
@@ -57,5 +69,96 @@
       width: 30%;
       margin-bottom: 30px;
     }
+    button{
+      .butn();
+    }
   }
 }// home
+
+nav{
+  @media @mobile{
+    div{
+      display: flex;
+      flex-direction: column;
+      
+      h1{
+        margin-top: 10px;
+      }
+      section{
+        width: 90%;
+        justify-content: space-evenly;
+        
+      }
+    }
+    
+  }
+}
+
+.home {
+  @media @mobile {
+     
+      
+          margin-left: 5%;
+          margin-right: 5%;
+          display: flex;
+          flex-direction: column;
+          width: 90%;
+
+          .img-content{
+            display: flex;
+            margin: 0% auto;
+            width: 100% !important ;
+            height: auto;
+            justify-content: center;
+            
+            
+          }
+          
+
+      
+          
+      
+      
+
+      .content-section{
+        .flex-col();
+        #t-c{
+          width: 100%;
+        }
+      }
+
+      .inverse-content{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      .content-destination{
+        width: 100%;
+      }
+
+      .content-pick{
+          display: flex;
+          flex-direction: column;
+          
+          .destination{
+              width: 90%;
+          }
+          
+
+          div{
+              margin: 0% auto;
+              //border: 2px solid black;
+              
+              p{
+                  
+              }
+              
+
+              button{
+                  margin: 0% auto;
+                  width: 100%;
+              }
+          }
+      }
+  }
+}
